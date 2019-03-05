@@ -36,7 +36,7 @@ public void verifySearchButtonPass() {
 
     String text = search_button.getAttribute("value");
 
-    Assert.assertEquals(text, search_text, "Text not found!");
+    Assert.assertEquals(text, search_text, "Text not found!:(");
 }
 
 @Test
